@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* Global Style */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 165px;
+  height: 49px;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+
+  border-radius: 5px;
+  background: #f6762c;
+
+  transition: opacity .3s ease-in-out;
+}
+
+.btn:hover {
+  opacity: .8;
+}
+
+.container {
+  padding: 0 15px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Header  */
+.header {
+  padding: 25px 0;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  gap: 28px;
+}
+
+.header__nav a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+
+  opacity: .7;
+
+  transition: opacity .3s ease-in-out;
+}
+
+.header__nav a.active {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+
+  opacity: 1;
+}
+
+.header__nav a:hover {
+  opacity: .9;
+}
