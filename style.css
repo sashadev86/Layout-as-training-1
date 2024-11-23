@@ -202,3 +202,168 @@ h1, h2, h3, h4, h5, h6, p {
 
   text-align: center;
 }
+
+/* Order */
+
+.order {
+  padding: 50px 0;
+
+  background-color: #312F30;
+}
+
+.order__container {
+  padding-right: 95px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.order__img {
+  max-width: 470px;
+}
+
+.order__wrapper {
+  max-width: 368px;
+}
+
+.order__title {
+  margin-bottom: 24px;
+
+  font-size: 44.2px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.order__description {
+  margin-bottom: 13px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+
+  opacity: .7;
+}
+
+.order__price {
+  margin-bottom: 11px;
+
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.order__price-now {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #F6762C;
+}
+
+.order__price-old {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 10%;
+  text-decoration-line: line-through;
+
+  color: #F6762C;
+
+  opacity: .5;
+}
+
+/* Product */
+
+.product {
+  padding: 100px 0;
+}
+
+.product__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.product__item {
+  padding: 58px 10px 58px 50px;
+
+  position: relative;
+
+  max-width: 540px;
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-end;
+
+  border-radius: 10px;
+
+  overflow: hidden;
+}
+
+.product__item:nth-child(2n) {
+  justify-content: flex-start;
+}
+
+.product__item-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.product__item-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 258px;
+}
+
+.product__item-title {
+  margin-bottom: 20px;
+
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.product__item-description {
+  margin-bottom: 11px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+
+  opacity: .7;
+}
+
+.product__price {
+  display: flex;
+  gap: 10px;
+}
+
+.product__price-now {
+  margin-bottom: 11px;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+
+  color: #F6762C;
+}
+
+.product__price-old {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 10%;
+
+  color: #F6762C;
+  text-decoration-line: line-through;
+
+  opacity: .5;
+}
