@@ -179,7 +179,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .food__item-wrapper {
-  padding: 28px 19px 19px 35px;
+  padding: 28px 19px 35px 19px;
 
   display: flex;
   flex-direction: column;
