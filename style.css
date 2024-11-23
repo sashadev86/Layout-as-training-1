@@ -153,12 +153,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* Food */
-
 .food {
-  padding: 115px 0;
+  padding: 100px 0;
 }
-
-.container {}
 
 .food__list {
   display: flex;
@@ -168,7 +165,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .food__item {
-  padding-bottom: 30px;
+  max-width: 262px;
 
   display: flex;
   flex-direction: column;
@@ -181,23 +178,22 @@ h1, h2, h3, h4, h5, h6, p {
   overflow: hidden;
 }
 
-.food__item-image {
-  margin-bottom: 28px;
+.food__item-wrapper {
+  padding: 28px 19px 19px 35px;
 
-  max-width: 262px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
 }
 
 .food__item-title {
-  margin-bottom: 13px;
-
   font-size: 20px;
   font-weight: 500;
   line-height: 23px;
 }
 
 .food__item-description {
-  max-width: 230px;
-
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
