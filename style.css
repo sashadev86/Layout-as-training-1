@@ -484,13 +484,27 @@ h1, h2, h3, h4, h5, h6, p, blockquote {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  gap: 24px;
+  gap: 32px;
 }
 
 .footer__contacts-wrapper {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+
+  gap: 9px;
+}
+
+.footer__contacts-link {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+
+  opacity: .8;
 }
 
 .footer__list {
@@ -537,4 +551,10 @@ h1, h2, h3, h4, h5, h6, p, blockquote {
   font-size: 12px;
   font-weight: 400;
   line-height: 14px;
+}
+
+.footer-menu-active {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
 }
